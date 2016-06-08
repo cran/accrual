@@ -12,16 +12,16 @@ Description: Subject recruitment for medical research is challenging. Slow patie
 \tabular{ll}{
 Package: \tab accrual\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2013-02-06\cr
+Version: \tab 1.1\cr
+Date: \tab 2015-06-08\cr
 License:\tab  GPL-2\cr 
 }
 There are major three funtions in the package. The accrual.gui function provide the gui version.
 }
 \author{
-Yu Jiang, Steve Simon, Matthew S. Mayo , Rama Raghavan, Byron J. Gajewski
+Yu Jiang, Cen Wu, Steve Simon, Matthew S. Mayo , Rama Raghavan, Byron J. Gajewski
 
-Maintainer:Yu Jiang <yjiang@kumc.edu>
+Maintainer:Yu Jiang <yu.jiang@yale.edu>
 }
 \references{
 Gajewski BJ, Simon SD, Carlson SE (2008). Predicting accrual in clinical trials with Bayesian posterior predictive distributions. Stat Med. 27(13):2328-40.
@@ -29,8 +29,8 @@ Gajewski BJ, Simon SD, Carlson SE (2008). Predicting accrual in clinical trials 
 \keyword{accrual}
 \keyword{Bayesian}
 \examples{
-accrual.n(n=300, T=36, P=0.5, m=100, tm=10)
-accrual.T(n=300, T=36, P=0.5, m=100, tm=10)
+accrual.n(n=300, T=36, P=0.5, m=100, tm=10,Tp=36)
+accrual.T(n=300, T=36, P=0.5, m=100, tm=10,np=300)
 accrual.plots(accrual.data)
 accrual.gui()
 }

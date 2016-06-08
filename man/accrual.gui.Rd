@@ -10,7 +10,7 @@ The R GUI interface only needs the researchers to input the original design info
 accrual.gui()
 }
 \author{
-Yu Jiang, Steve Simon, Matthew S. Mayo , Rama Raghavan, Byron J. Gajewski
+Yu Jiang, Cen Wu, Steve Simon, Matthew S. Mayo , Rama Raghavan, Byron J. Gajewski
 }
 \examples{
 accrual.gui()

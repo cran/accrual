@@ -1,5 +1,5 @@
-\name{accrual.T}
-\alias{accrual.T}
+\name{accrual.T.plot}
+\alias{accrual.T.plot}
 \title{
 Prediction of Time.
 }
@@ -7,7 +7,7 @@ Prediction of Time.
 Prediction of time frame for a certain nubmer of subjects.
 }
 \usage{
-accrual.T(n, T, P, m,tm,np)
+accrual.T.plot(n, T, P, m,tm,np)
 }
 \arguments{
  \item{n}{
@@ -37,7 +37,7 @@ Yu Jiang, Cen Wu, Steve Simon, Matthew S. Mayo , Rama Raghavan, Byron J. Gajewsk
 }
 
 \examples{
-accrual.T(n=300, T=36, P=0.5, m=100, tm=10,np=300) [[1]]
+accrual.T.plot(n=300, T=36, P=0.5, m=100, tm=10, np=300) 
 }
 \keyword{ accrual }
 \keyword{ Bayesian }

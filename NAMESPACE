@@ -1,4 +1,5 @@
 exportPattern("^[[:alpha:]]+")
 import(fgui)
 import(SMPracticals)
+import(tcltk)
 

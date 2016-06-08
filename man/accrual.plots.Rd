@@ -17,7 +17,7 @@ accrual.plots(w)
 }
 }
 \author{
-Yu Jiang, Steve Simon, Matthew S. Mayo , Rama Raghavan, Byron J. Gajewski
+Yu Jiang, Cen Wu, Steve Simon, Matthew S. Mayo , Rama Raghavan, Byron J. Gajewski
 }
 \examples{
 accrual.plots(accrual.data)
