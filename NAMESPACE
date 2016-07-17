@@ -1,5 +1,9 @@
 exportPattern("^[[:alpha:]]+")
 import(fgui)
 import(SMPracticals)
-import(tcltk)
-
+import(tcltk2)
+  importFrom("graphics", "abline", "axis", "barplot", "hist", "layout",
+             "legend", "lines", "par", "plot", "polygon", "segments")
+  importFrom("stats", "dexp", "qbeta", "qnbinom", "quantile", "rbeta",
+             "rexp", "rgamma", "rnbinom", "rpois")
+  importFrom("utils", "read.csv")
