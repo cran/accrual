@@ -21,9 +21,9 @@ function(n,T,P,m,tm,np,Method) {
   if (Method=="Accelerated Prior"){accrual.n.T=accrual.n.inform(n,T,P=(1-m/n),m,tm,T)[[1]]}
   if (Method=="Hedging Prior"){accrual.n.T=accrual.n.hedging(n,T,m,tm,T)[[1]]}
   
-  lclT=accrual.time[,1]
-  midT=accrual.time[,2]
-  uclT=accrual.time[,3]
+  lclT=round(accrual.time[,1], 3)
+  midT=round(accrual.time[,2], 3)
+  uclT=round(accrual.time[,3], 3)
   
   
   layout(matrix(c(1,2,2,2)))
