@@ -4,17 +4,19 @@
 Plot for Prediction of Accrual in Fixed Time Frame
 }
 \description{
-Produce a plot and output for prediction of the number of subjects can be recruited in a fixed time frame.
+Produce a plot and output for prediction of the number of participants will be recruited in a fixed time frame.
 }
 \usage{
-accrual.n.plot(n, T, P, m, tm, Tp, Method)
+accrual.n.plot(n, TT, P, m, tm, Tp, Method)
 }
-
+\value{
+A list of prediction and corresponding plot on the number of participants that will be recruited in a fixed time frame.
+}
 \arguments{
   \item{n}{
 Target sample size
 }
-  \item{T}{
+  \item{TT}{
 Target completion time
 }
   \item{P}{
@@ -40,9 +42,9 @@ Junhao Liu, Yu Jiang, Cen Wu, Steve Simon, Matthew S. Mayo, Rama Raghavan, Byron
 }
 
 \examples{
-accrual.n.plot(n=300, T=36, P=0.5, m=100, tm=10, Tp=36, Method="Informative Prior")
-accrual.n.plot(n=300, T=36, m=100, tm=10, Tp=36, Method="Accelerated Prior")
-accrual.n.plot(n=300, T=36, m=100, tm=10, Tp=36, Method="Hedging Prior")
+accrual.n.plot(n=300, TT=36, P=0.5, m=100, tm=10, Tp=36, Method="Informative Prior")
+accrual.n.plot(n=300, TT=36, m=100, tm=10, Tp=36, Method="Accelerated Prior")
+accrual.n.plot(n=300, TT=36, m=100, tm=10, Tp=36, Method="Hedging Prior")
 }
 
 \keyword{plot}

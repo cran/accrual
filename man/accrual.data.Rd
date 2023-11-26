@@ -5,11 +5,11 @@
 Example Accrual Data
 }
 \description{
-An example dataset for subject accrual.
+An accrual dataset example.
 }
 \usage{accrual.data}
 \examples{
-str(accrual.data) 
+str(accrual.data)
 plot(accrual.data)
 accrual.plots(accrual.data)
 }
